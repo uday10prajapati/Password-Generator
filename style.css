@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 183, 226);
+}
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 28px 32px;
+    background-color: blueviolet;
+    
+}
+.card h1{
+    font-size: 4rem;
+    margin-block: 4px;
+}
+.passbox{
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    width: 700px;
+}
+.le{
+    font-size: 2rem;
+    padding: 10px;
+}
+.length{
+    font-size: 2rem;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+}
+.upper{
+    font-size: 2rem;
+}
+.lower{
+    font-size: 2rem;
+}
+.no{
+    font-size: 2rem;
+}
+.sp{
+    font-size: 2rem;
+}
+.gp{
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.gp:hover{
+    background-color: rgb(43, 183, 226);
+}
